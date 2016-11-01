@@ -1,0 +1,11 @@
+.div1{width:100% ;height:35.3882rem;background-image:url(../images/5.jpg);background-size:100% 100%;}
+.pp{display:block;width:100%;height:20.667rem;padding-top:6.36667rem;text-align: center;font-size:1rem;margin:0 auto;}
+.pp a{color: #fff;}
+.da{width:100%;margin: 0 auto;}
+.da dl{width: 60%;height: 100px;border: 1px solid #333; border-radius: 5px;}
+.da dl dt{background-color: yellow;}
+p button{width: 17rem;height:2.667rem;line-height:1.8333rem;font-size:1.06667rem;background-color: #105CB6;clear: both;}
+p input.in1{width: 14rem;height: 2.5rem;font-size: 0.6667rem;margin: 0.5rem;}
+button.btn2{margin:1.5rem 0;background-color: #28A4C9;}
+button.btn1{background-color: #9ACFEA;border: none;line-height: 1.8333rem;border-radius: 0.16667rem;}
+.li{width:68px;height:34px;background:#337ab7;float:left;list-style: none;line-height:34px;text-align: center;color:#fff;border-radius: 5px;margin-left:15px;margin-top:5px;}

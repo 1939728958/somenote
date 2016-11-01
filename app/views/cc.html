@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<button type="button" ng-click="back()" onClick="javascript: history.go(-1);" class="btn btn-link navbar-btn glyphicon glyphicon-chevron-left"></button>
+		<button type="button" class="pull-right btn btn-link navbar-btn glyphicon glyphicon-ok" ng-click="dj()"></button> 
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<div class="container">
+	<form role="form" class="ng-pristine ng-valid">
+		<div class="form-group"> 
+			<label>标题</label> 
+			<input type="text" class="form-control input-lg" ng-model="title"> 
+		</div>
+		<div class="form-group"> 
+			<label for="exampleInputPassword1" >内容</label> 
+			<textarea class="form-control input-lg" rows="5" ng-model="content"></textarea> 
+		</div>
+	</form>
+</div>
+<span ng-click="sm('私密')" class="btn btn-success sm">私密</span>
+<span ng-click="sx('伤心')" class="btn btn-success sx">伤心</span>
+<span ng-click="gx('高兴')" class="btn btn-success gx">高兴</span>
+<span ng-click="fd('奋斗')" class="btn btn-success fd">奋斗</span>
